@@ -23,7 +23,7 @@ const CartItem = ({ item, handleAddToCart, handleSubFromCart, handleRemoveFromCa
 
     return (
         <Card>
-            <CardMedia image={item.source} alt={item.name} className={classes.media} />
+            <CardMedia image="https://unsplash.com/photos/ikDDfUJEstk/download" alt={item.name} className={classes.media} />
             <CardContent className={classes.cardContent}>
                 <Typography variant="h4">{name}</Typography>
                 <Typography variant="h5">{totalItem}￠</Typography>

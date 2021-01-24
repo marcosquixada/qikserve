@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 
-import { Products, Navbar, Cart } from './components';
+import { Products, Navbar, Cart, Checkout } from './components';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import api from './services/api';
@@ -60,7 +60,7 @@ const App = () => {
             });
         }
 
-        setCart({ ...cart, items: items, quantity: cart.quantity - 1, subtotal: cart.subtotal - products.filter(item => item.id == productId)[0].price });
+        setCart({ ...cart, items: items, quantity: cart.quantity - 1, subtotal: cart.subtotal - products.filter(item => item.id === productId)[0].price });
     }
 
     const handleRemoveFromCart = async (productId) => {
@@ -100,6 +100,9 @@ const App = () => {
                             handleRemoveFromCart={handleRemoveFromCart}
                             handleEmptyCart={handleEmptyCart}
                         />
+                    </Route>
+                    <Route exact path="/checkout">
+                        <Checkout cart={cart} products={products}/>
                     </Route>
                 </Switch>
             </Router>
