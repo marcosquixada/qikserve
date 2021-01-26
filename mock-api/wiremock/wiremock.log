@@ -910,3 +910,3107 @@ Content-Type: [application/json]
 
 {"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"promotions":[{"id":"ZRAwbsO2qM","type":"BUY_X_GET_Y_FREE","required_qty":2,"free_qty":1}]}
 
+2021-01-24 23:13:41.135 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-24 23:14:18.574 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-24 23:14:52.406 Request received:
+0:0:0:0:0:0:0:1 - GET /products/4MB7UfpTQs
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"promotions\":[]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"promotions":[]}
+
+2021-01-24 23:14:52.407 Request received:
+0:0:0:0:0:0:0:1 - GET /products/Dwt5F7KAhi
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"promotions\":[{\"id\":\"ibt3EEYczW\",\"type\":\"QTY_BASED_PRICE_OVERRIDE\",\"required_qty\":2,\"price\":1799}]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"promotions":[{"id":"ibt3EEYczW","type":"QTY_BASED_PRICE_OVERRIDE","required_qty":2,"price":1799}]}
+
+2021-01-24 23:14:52.440 Request received:
+0:0:0:0:0:0:0:1 - GET /products/C8GDyLrHJb
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"promotions\":[{\"id\":\"Gm1piPn7Fg\",\"type\":\"FLAT_PERCENT\",\"amount\":10}]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"promotions":[{"id":"Gm1piPn7Fg","type":"FLAT_PERCENT","amount":10}]}
+
+2021-01-24 23:14:52.522 Request received:
+0:0:0:0:0:0:0:1 - GET /products/PWWe3w1SDU
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"promotions\":[{\"id\":\"ZRAwbsO2qM\",\"type\":\"BUY_X_GET_Y_FREE\",\"required_qty\":2,\"free_qty\":1}]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"promotions":[{"id":"ZRAwbsO2qM","type":"BUY_X_GET_Y_FREE","required_qty":2,"free_qty":1}]}
+
+2021-01-24 23:17:34.212 Request received:
+0:0:0:0:0:0:0:1 - GET /products/C8GDyLrHJb
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"promotions\":[{\"id\":\"Gm1piPn7Fg\",\"type\":\"FLAT_PERCENT\",\"amount\":10}]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"promotions":[{"id":"Gm1piPn7Fg","type":"FLAT_PERCENT","amount":10}]}
+
+2021-01-24 23:17:34.224 Request received:
+0:0:0:0:0:0:0:1 - GET /products/4MB7UfpTQs
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"promotions\":[]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"promotions":[]}
+
+2021-01-24 23:17:34.245 Request received:
+0:0:0:0:0:0:0:1 - GET /products/Dwt5F7KAhi
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"promotions\":[{\"id\":\"ibt3EEYczW\",\"type\":\"QTY_BASED_PRICE_OVERRIDE\",\"required_qty\":2,\"price\":1799}]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"promotions":[{"id":"ibt3EEYczW","type":"QTY_BASED_PRICE_OVERRIDE","required_qty":2,"price":1799}]}
+
+2021-01-24 23:17:34.260 Request received:
+0:0:0:0:0:0:0:1 - GET /products/PWWe3w1SDU
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"promotions\":[{\"id\":\"ZRAwbsO2qM\",\"type\":\"BUY_X_GET_Y_FREE\",\"required_qty\":2,\"free_qty\":1}]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"promotions":[{"id":"ZRAwbsO2qM","type":"BUY_X_GET_Y_FREE","required_qty":2,"free_qty":1}]}
+
+2021-01-24 23:21:11.236 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Mobile Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-24 23:21:33.946 Request received:
+0:0:0:0:0:0:0:1 - GET /products/Dwt5F7KAhi
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Mobile Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"promotions\":[{\"id\":\"ibt3EEYczW\",\"type\":\"QTY_BASED_PRICE_OVERRIDE\",\"required_qty\":2,\"price\":1799}]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"promotions":[{"id":"ibt3EEYczW","type":"QTY_BASED_PRICE_OVERRIDE","required_qty":2,"price":1799}]}
+
+2021-01-24 23:21:33.973 Request received:
+0:0:0:0:0:0:0:1 - GET /products/PWWe3w1SDU
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Mobile Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"promotions\":[{\"id\":\"ZRAwbsO2qM\",\"type\":\"BUY_X_GET_Y_FREE\",\"required_qty\":2,\"free_qty\":1}]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"promotions":[{"id":"ZRAwbsO2qM","type":"BUY_X_GET_Y_FREE","required_qty":2,"free_qty":1}]}
+
+2021-01-24 23:21:34.024 Request received:
+0:0:0:0:0:0:0:1 - GET /products/C8GDyLrHJb
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Mobile Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"promotions\":[{\"id\":\"Gm1piPn7Fg\",\"type\":\"FLAT_PERCENT\",\"amount\":10}]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"promotions":[{"id":"Gm1piPn7Fg","type":"FLAT_PERCENT","amount":10}]}
+
+2021-01-25 09:45:53.070 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-25 09:46:12.602 Request received:
+0:0:0:0:0:0:0:1 - GET /products/Dwt5F7KAhi
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"promotions\":[{\"id\":\"ibt3EEYczW\",\"type\":\"QTY_BASED_PRICE_OVERRIDE\",\"required_qty\":2,\"price\":1799}]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"promotions":[{"id":"ibt3EEYczW","type":"QTY_BASED_PRICE_OVERRIDE","required_qty":2,"price":1799}]}
+
+2021-01-25 09:46:12.604 Request received:
+0:0:0:0:0:0:0:1 - GET /products/C8GDyLrHJb
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"promotions\":[{\"id\":\"Gm1piPn7Fg\",\"type\":\"FLAT_PERCENT\",\"amount\":10}]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"promotions":[{"id":"Gm1piPn7Fg","type":"FLAT_PERCENT","amount":10}]}
+
+2021-01-25 09:46:12.650 Request received:
+0:0:0:0:0:0:0:1 - GET /products/PWWe3w1SDU
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"promotions\":[{\"id\":\"ZRAwbsO2qM\",\"type\":\"BUY_X_GET_Y_FREE\",\"required_qty\":2,\"free_qty\":1}]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"promotions":[{"id":"ZRAwbsO2qM","type":"BUY_X_GET_Y_FREE","required_qty":2,"free_qty":1}]}
+
+2021-01-25 09:46:12.846 Request received:
+0:0:0:0:0:0:0:1 - GET /products/4MB7UfpTQs
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"promotions\":[]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"promotions":[]}
+
+2021-01-25 09:48:23.289 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-25 09:48:35.661 Request received:
+0:0:0:0:0:0:0:1 - GET /products/Dwt5F7KAhi
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"promotions\":[{\"id\":\"ibt3EEYczW\",\"type\":\"QTY_BASED_PRICE_OVERRIDE\",\"required_qty\":2,\"price\":1799}]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"promotions":[{"id":"ibt3EEYczW","type":"QTY_BASED_PRICE_OVERRIDE","required_qty":2,"price":1799}]}
+
+2021-01-25 09:48:35.663 Request received:
+0:0:0:0:0:0:0:1 - GET /products/PWWe3w1SDU
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"promotions\":[{\"id\":\"ZRAwbsO2qM\",\"type\":\"BUY_X_GET_Y_FREE\",\"required_qty\":2,\"free_qty\":1}]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"promotions":[{"id":"ZRAwbsO2qM","type":"BUY_X_GET_Y_FREE","required_qty":2,"free_qty":1}]}
+
+2021-01-25 09:48:35.679 Request received:
+0:0:0:0:0:0:0:1 - GET /products/C8GDyLrHJb
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"promotions\":[{\"id\":\"Gm1piPn7Fg\",\"type\":\"FLAT_PERCENT\",\"amount\":10}]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"promotions":[{"id":"Gm1piPn7Fg","type":"FLAT_PERCENT","amount":10}]}
+
+2021-01-25 09:48:35.683 Request received:
+0:0:0:0:0:0:0:1 - GET /products/4MB7UfpTQs
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"promotions\":[]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"promotions":[]}
+
+2021-01-25 09:49:42.304 Request received:
+0:0:0:0:0:0:0:1 - GET /products/Dwt5F7KAhi
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"promotions\":[{\"id\":\"ibt3EEYczW\",\"type\":\"QTY_BASED_PRICE_OVERRIDE\",\"required_qty\":2,\"price\":1799}]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"promotions":[{"id":"ibt3EEYczW","type":"QTY_BASED_PRICE_OVERRIDE","required_qty":2,"price":1799}]}
+
+2021-01-25 09:49:42.385 Request received:
+0:0:0:0:0:0:0:1 - GET /products/PWWe3w1SDU
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"promotions\":[{\"id\":\"ZRAwbsO2qM\",\"type\":\"BUY_X_GET_Y_FREE\",\"required_qty\":2,\"free_qty\":1}]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"promotions":[{"id":"ZRAwbsO2qM","type":"BUY_X_GET_Y_FREE","required_qty":2,"free_qty":1}]}
+
+2021-01-25 09:49:42.389 Request received:
+0:0:0:0:0:0:0:1 - GET /products/4MB7UfpTQs
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"promotions\":[]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"promotions":[]}
+
+2021-01-25 09:49:42.390 Request received:
+0:0:0:0:0:0:0:1 - GET /products/C8GDyLrHJb
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"promotions\":[{\"id\":\"Gm1piPn7Fg\",\"type\":\"FLAT_PERCENT\",\"amount\":10}]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"promotions":[{"id":"Gm1piPn7Fg","type":"FLAT_PERCENT","amount":10}]}
+
+2021-01-25 09:50:48.248 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-25 09:51:08.118 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-25 09:52:08.829 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-25 09:52:28.505 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-25 10:00:54.649 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-25 10:01:10.360 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-25 10:03:04.901 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-25 10:04:06.269 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-25 10:05:58.453 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-25 10:06:32.085 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-25 10:07:18.867 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-25 10:07:39.430 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-25 10:09:10.165 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-25 10:10:08.241 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-25 10:12:53.377 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-25 10:13:37.828 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Pragma: [no-cache]
+Accept-Encoding: [gzip, deflate, br]
+Sec-Fetch-Mode: [cors]
+Cache-Control: [no-cache]
+Sec-GPC: [1]
+Accept-Language: [en-US,en;q=0.9]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-25 10:14:03.683 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-25 10:14:46.253 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-25 10:51:48.133 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-25 10:52:16.025 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-25 10:57:12.193 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-25 10:57:55.049 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-25 11:00:10.200 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-25 11:03:26.208 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-25 11:04:04.737 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-25 11:04:21.477 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-25 11:06:16.779 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-25 11:07:14.495 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-25 11:08:55.924 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-25 11:10:42.803 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-25 11:10:52.515 Request received:
+0:0:0:0:0:0:0:1 - GET /products/Dwt5F7KAhi
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"promotions\":[{\"id\":\"ibt3EEYczW\",\"type\":\"QTY_BASED_PRICE_OVERRIDE\",\"required_qty\":2,\"price\":1799}]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"promotions":[{"id":"ibt3EEYczW","type":"QTY_BASED_PRICE_OVERRIDE","required_qty":2,"price":1799}]}
+
+2021-01-25 11:10:52.519 Request received:
+0:0:0:0:0:0:0:1 - GET /products/PWWe3w1SDU
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"promotions\":[{\"id\":\"ZRAwbsO2qM\",\"type\":\"BUY_X_GET_Y_FREE\",\"required_qty\":2,\"free_qty\":1}]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"promotions":[{"id":"ZRAwbsO2qM","type":"BUY_X_GET_Y_FREE","required_qty":2,"free_qty":1}]}
+
+2021-01-25 11:10:52.520 Request received:
+0:0:0:0:0:0:0:1 - GET /products/4MB7UfpTQs
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"promotions\":[]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"promotions":[]}
+
+2021-01-25 11:10:52.609 Request received:
+0:0:0:0:0:0:0:1 - GET /products/C8GDyLrHJb
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"promotions\":[{\"id\":\"Gm1piPn7Fg\",\"type\":\"FLAT_PERCENT\",\"amount\":10}]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"promotions":[{"id":"Gm1piPn7Fg","type":"FLAT_PERCENT","amount":10}]}
+
+2021-01-25 11:11:32.533 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-25 11:11:44.792 Request received:
+0:0:0:0:0:0:0:1 - GET /products/Dwt5F7KAhi
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"promotions\":[{\"id\":\"ibt3EEYczW\",\"type\":\"QTY_BASED_PRICE_OVERRIDE\",\"required_qty\":2,\"price\":1799}]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"promotions":[{"id":"ibt3EEYczW","type":"QTY_BASED_PRICE_OVERRIDE","required_qty":2,"price":1799}]}
+
+2021-01-25 11:11:44.810 Request received:
+0:0:0:0:0:0:0:1 - GET /products/PWWe3w1SDU
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"promotions\":[{\"id\":\"ZRAwbsO2qM\",\"type\":\"BUY_X_GET_Y_FREE\",\"required_qty\":2,\"free_qty\":1}]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"promotions":[{"id":"ZRAwbsO2qM","type":"BUY_X_GET_Y_FREE","required_qty":2,"free_qty":1}]}
+
+2021-01-25 11:11:44.874 Request received:
+0:0:0:0:0:0:0:1 - GET /products/4MB7UfpTQs
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"promotions\":[]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"promotions":[]}
+
+2021-01-25 11:11:44.874 Request received:
+0:0:0:0:0:0:0:1 - GET /products/C8GDyLrHJb
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"promotions\":[{\"id\":\"Gm1piPn7Fg\",\"type\":\"FLAT_PERCENT\",\"amount\":10}]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"promotions":[{"id":"Gm1piPn7Fg","type":"FLAT_PERCENT","amount":10}]}
+
+2021-01-25 11:13:49.049 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-25 11:13:53.008 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-25 11:14:03.332 Request received:
+0:0:0:0:0:0:0:1 - GET /products/PWWe3w1SDU
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"promotions\":[{\"id\":\"ZRAwbsO2qM\",\"type\":\"BUY_X_GET_Y_FREE\",\"required_qty\":2,\"free_qty\":1}]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"promotions":[{"id":"ZRAwbsO2qM","type":"BUY_X_GET_Y_FREE","required_qty":2,"free_qty":1}]}
+
+2021-01-25 11:14:03.332 Request received:
+0:0:0:0:0:0:0:1 - GET /products/Dwt5F7KAhi
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"promotions\":[{\"id\":\"ibt3EEYczW\",\"type\":\"QTY_BASED_PRICE_OVERRIDE\",\"required_qty\":2,\"price\":1799}]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"promotions":[{"id":"ibt3EEYczW","type":"QTY_BASED_PRICE_OVERRIDE","required_qty":2,"price":1799}]}
+
+2021-01-25 11:14:03.357 Request received:
+0:0:0:0:0:0:0:1 - GET /products/4MB7UfpTQs
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"promotions\":[]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"promotions":[]}
+
+2021-01-25 11:14:03.357 Request received:
+0:0:0:0:0:0:0:1 - GET /products/C8GDyLrHJb
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"promotions\":[{\"id\":\"Gm1piPn7Fg\",\"type\":\"FLAT_PERCENT\",\"amount\":10}]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"promotions":[{"id":"Gm1piPn7Fg","type":"FLAT_PERCENT","amount":10}]}
+
+2021-01-25 11:14:08.168 Request received:
+0:0:0:0:0:0:0:1 - GET /products/PWWe3w1SDU
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"promotions\":[{\"id\":\"ZRAwbsO2qM\",\"type\":\"BUY_X_GET_Y_FREE\",\"required_qty\":2,\"free_qty\":1}]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"promotions":[{"id":"ZRAwbsO2qM","type":"BUY_X_GET_Y_FREE","required_qty":2,"free_qty":1}]}
+
+2021-01-25 11:14:08.171 Request received:
+0:0:0:0:0:0:0:1 - GET /products/4MB7UfpTQs
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"promotions\":[]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"promotions":[]}
+
+2021-01-25 11:14:08.171 Request received:
+0:0:0:0:0:0:0:1 - GET /products/C8GDyLrHJb
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"promotions\":[{\"id\":\"Gm1piPn7Fg\",\"type\":\"FLAT_PERCENT\",\"amount\":10}]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"promotions":[{"id":"Gm1piPn7Fg","type":"FLAT_PERCENT","amount":10}]}
+
+2021-01-25 11:14:08.176 Request received:
+0:0:0:0:0:0:0:1 - GET /products/Dwt5F7KAhi
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"promotions\":[{\"id\":\"ibt3EEYczW\",\"type\":\"QTY_BASED_PRICE_OVERRIDE\",\"required_qty\":2,\"price\":1799}]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"promotions":[{"id":"ibt3EEYczW","type":"QTY_BASED_PRICE_OVERRIDE","required_qty":2,"price":1799}]}
+
+2021-01-25 11:15:52.485 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-25 11:15:57.030 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-25 11:16:06.228 Request received:
+0:0:0:0:0:0:0:1 - GET /products/PWWe3w1SDU
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"promotions\":[{\"id\":\"ZRAwbsO2qM\",\"type\":\"BUY_X_GET_Y_FREE\",\"required_qty\":2,\"free_qty\":1}]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"promotions":[{"id":"ZRAwbsO2qM","type":"BUY_X_GET_Y_FREE","required_qty":2,"free_qty":1}]}
+
+2021-01-25 11:16:06.228 Request received:
+0:0:0:0:0:0:0:1 - GET /products/4MB7UfpTQs
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"promotions\":[]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"promotions":[]}
+
+2021-01-25 11:16:06.228 Request received:
+0:0:0:0:0:0:0:1 - GET /products/C8GDyLrHJb
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"promotions\":[{\"id\":\"Gm1piPn7Fg\",\"type\":\"FLAT_PERCENT\",\"amount\":10}]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"promotions":[{"id":"Gm1piPn7Fg","type":"FLAT_PERCENT","amount":10}]}
+
+2021-01-25 11:16:06.247 Request received:
+0:0:0:0:0:0:0:1 - GET /products/Dwt5F7KAhi
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"promotions\":[{\"id\":\"ibt3EEYczW\",\"type\":\"QTY_BASED_PRICE_OVERRIDE\",\"required_qty\":2,\"price\":1799}]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"promotions":[{"id":"ibt3EEYczW","type":"QTY_BASED_PRICE_OVERRIDE","required_qty":2,"price":1799}]}
+
+2021-01-25 11:57:42.863 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-25 12:12:38.413 
+                                               Request was not matched
+                                               =======================
+
+-----------------------------------------------------------------------------------------------------------------------
+| Closest stub                                             | Request                                                  |
+-----------------------------------------------------------------------------------------------------------------------
+                                                           |
+GET                                                        | GET
+/products                                                  | /                                                   <<<<< URL does not match
+                                                           |
+                                                           |
+-----------------------------------------------------------------------------------------------------------------------
+
+2021-01-25 12:12:38.416 Request received:
+192.168.15.63 - GET /
+
+User-Agent: [avast! Antivirus]
+Host: [192.168.15.63:8081]
+Accept-Encoding: [deflate, gzip]
+Accept: [*/*]
+
+
+
+Matched response definition:
+(no response definition configured)
+
+Response:
+HTTP/1.1 404
+(no headers)
+
+
+2021-01-25 12:12:50.690 
+                                               Request was not matched
+                                               =======================
+
+-----------------------------------------------------------------------------------------------------------------------
+| Closest stub                                             | Request                                                  |
+-----------------------------------------------------------------------------------------------------------------------
+                                                           |
+GET                                                        | GET
+/products                                                  | /HNAP1/                                             <<<<< URL does not match
+                                                           |
+                                                           |
+-----------------------------------------------------------------------------------------------------------------------
+
+2021-01-25 12:12:50.691 Request received:
+192.168.15.63 - GET /HNAP1/
+
+User-Agent: [avast! Antivirus]
+Connection: [close]
+Host: [192.168.15.63]
+Accept-Encoding: [deflate, gzip]
+Accept: [*/*]
+
+
+
+Matched response definition:
+(no response definition configured)
+
+Response:
+HTTP/1.1 404
+(no headers)
+
+
+2021-01-25 12:12:50.701 Received request to /not-matched with body 
+2021-01-25 12:12:55.954 
+                                               Request was not matched
+                                               =======================
+
+-----------------------------------------------------------------------------------------------------------------------
+| Closest stub                                             | Request                                                  |
+-----------------------------------------------------------------------------------------------------------------------
+                                                           |
+GET                                                        | GET
+/products                                                  | /                                                   <<<<< URL does not match
+                                                           |
+                                                           |
+-----------------------------------------------------------------------------------------------------------------------
+
+2021-01-25 12:12:55.958 Request received:
+192.168.15.63 - GET /
+
+User-Agent: [avast! Antivirus]
+Host: [192.168.15.63:8081]
+Accept-Encoding: [deflate, gzip]
+Accept: [*/*]
+
+
+
+Matched response definition:
+(no response definition configured)
+
+Response:
+HTTP/1.1 404
+(no headers)
+
+
+2021-01-25 12:12:59.063 
+                                               Request was not matched
+                                               =======================
+
+-----------------------------------------------------------------------------------------------------------------------
+| Closest stub                                             | Request                                                  |
+-----------------------------------------------------------------------------------------------------------------------
+                                                           |
+GET                                                        | GET
+/products                                                  | /HNAP1/                                             <<<<< URL does not match
+                                                           |
+                                                           |
+-----------------------------------------------------------------------------------------------------------------------
+
+2021-01-25 12:12:59.067 Request received:
+192.168.15.63 - GET /HNAP1/
+
+User-Agent: [avast! Antivirus]
+Connection: [close]
+Host: [192.168.15.63]
+Accept-Encoding: [deflate, gzip]
+Accept: [*/*]
+
+
+
+Matched response definition:
+(no response definition configured)
+
+Response:
+HTTP/1.1 404
+(no headers)
+
+
+2021-01-25 12:12:59.076 Received request to /not-matched with body 
+2021-01-25 12:18:21.446 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+
+2021-01-25 12:18:35.632 Request received:
+0:0:0:0:0:0:0:1 - GET /products/Dwt5F7KAhi
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"promotions\":[{\"id\":\"ibt3EEYczW\",\"type\":\"QTY_BASED_PRICE_OVERRIDE\",\"required_qty\":2,\"price\":1799}]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"promotions":[{"id":"ibt3EEYczW","type":"QTY_BASED_PRICE_OVERRIDE","required_qty":2,"price":1799}]}
+
+2021-01-25 12:18:35.634 Request received:
+0:0:0:0:0:0:0:1 - GET /products/C8GDyLrHJb
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"promotions\":[{\"id\":\"Gm1piPn7Fg\",\"type\":\"FLAT_PERCENT\",\"amount\":10}]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"promotions":[{"id":"Gm1piPn7Fg","type":"FLAT_PERCENT","amount":10}]}
+
+2021-01-25 12:18:35.638 Request received:
+0:0:0:0:0:0:0:1 - GET /products/PWWe3w1SDU
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"promotions\":[{\"id\":\"ZRAwbsO2qM\",\"type\":\"BUY_X_GET_Y_FREE\",\"required_qty\":2,\"free_qty\":1}]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"promotions":[{"id":"ZRAwbsO2qM","type":"BUY_X_GET_Y_FREE","required_qty":2,"free_qty":1}]}
+
+2021-01-25 12:18:35.677 Request received:
+0:0:0:0:0:0:0:1 - GET /products/4MB7UfpTQs
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"promotions\":[]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"promotions":[]}
+
+2021-01-25 15:18:04.237 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Origin: [http://localhost:3000]
+Accept: [application/json, text/plain, */*]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36]
+Referer: [http://localhost:3000/]
+Sec-GPC: [1]
+Sec-Fetch-Site: [same-site]
+Sec-Fetch-Dest: [empty]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br]
+Accept-Language: [en-US,en;q=0.9]
+Sec-Fetch-Mode: [cors]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"image\":\"https://unsplash.com/photos/TxQSdnp6D_k/download\"},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"image\":\"https://unsplash.com/photos/oblxyw_gT28/download\"},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"image\":\"https://unsplash.com/photos/EvoIiaIVRzU/download\"},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"image\":\"https://unsplash.com/photos/ikDDfUJEstk/download\"}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"image":"https://unsplash.com/photos/TxQSdnp6D_k/download"},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"image":"https://unsplash.com/photos/oblxyw_gT28/download"},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"image":"https://unsplash.com/photos/EvoIiaIVRzU/download"},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"image":"https://unsplash.com/photos/ikDDfUJEstk/download"}]
+

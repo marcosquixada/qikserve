@@ -9,12 +9,16 @@ const CartItem = ({ item, handleAddToCart, handleSubFromCart, handleRemoveFromCa
     const classes = useStyles();
     const [totalItem, setTotalItem] = useState(0);
     const [name, setName] = useState('');
+    let [icon, setIcon] = useState('');
 
     const fetchCart = async () => {
         const { data } = await api.get('/products/' + item.id);
 
         setTotalItem(item.qty * data.price);
         setName(data.name);
+
+        let importedIcon = await import('../../../assets/' + data.name.replace('!', '') + '.jpg');
+        setIcon(importedIcon.default);
     }
 
     useEffect(() => {
@@ -23,7 +27,7 @@ const CartItem = ({ item, handleAddToCart, handleSubFromCart, handleRemoveFromCa
 
     return (
         <Card>
-            <CardMedia image="https://unsplash.com/photos/ikDDfUJEstk/download" alt={item.name} className={classes.media} />
+            <CardMedia image={icon} alt={item.name} className={classes.media} />
             <CardContent className={classes.cardContent}>
                 <Typography variant="h4">{name}</Typography>
                 <Typography variant="h5">{totalItem}￠</Typography>
