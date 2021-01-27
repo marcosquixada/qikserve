@@ -6,17 +6,11 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import api from './services/api';
 
 const App = () => {
-    const [products, setProducts] = useState([
-        //{ id: 1, name: 'Shoes', description: 'Running Shoes.', price: '$5', image: 'https://imgcentauro-a.akamaihd.net/500x500/94313702/tenis-nike-revolution-5-masculino-img.jpg' },
-        //{ id: 2, name: 'Macbook', description: 'Apple macbook.', price: '$10', image: 'https://imgcentauro-a.akamaihd.net/500x500/94313702/tenis-nike-revolution-5-masculino-img.jpg' },
-        //{ id: 3, name: 'Printer', description: 'Hp Deskjet.', price: '$7', image: 'https://imgcentauro-a.akamaihd.net/500x500/94313702/tenis-nike-revolution-5-masculino-img.jpg' },
-    ]);
+    const [products, setProducts] = useState([]);
     const [cart, setCart] = useState({items:[], quantity: 0, subtotal: 0});
 
     const fetchProducts = async () => {
         const {data} = await api.get('/products');
-
-        //console.log(data.filter(item => item.id == 'Dwt5F7KAhi')[0].name);
 
         setProducts(data);
     }
@@ -24,9 +18,11 @@ const App = () => {
     const handleAddToCart = async (productId) => {
         let items = cart.items;
         let item = items.filter(item => item.id === productId)[0];
+        //if it´s not there, add
         if(!item){
             item = { id: productId, qty: 1 };
             cart.items.push(item);
+        //else, increase qty
         } else {
             let qty = item.qty;
             item = {id: productId, qty: qty + 1};
@@ -43,9 +39,11 @@ const App = () => {
 
     const handleSubFromCart = async (productId) => {
         let items = cart.items;
+        console.log(items);
         let item = items.filter(item => item.id === productId)[0];
-        if (item.qty == 1) {
-            items = cart.items.map((i) => {
+        console.log(item);
+        if (item.qty === 1) {
+            items = cart.items.filter((i) => {
                 if (i.id !== productId)
                     return i;
             });
@@ -60,20 +58,31 @@ const App = () => {
             });
         }
 
+        console.log(items);
+
         setCart({ ...cart, items: items, quantity: cart.quantity - 1, subtotal: cart.subtotal - products.filter(item => item.id === productId)[0].price });
     }
 
     const handleRemoveFromCart = async (productId) => {
-        let qty = 0, subtotal = 0;
+        let qty = 0, price = 0;
+
+        for(let item of cart.items){
+            if (item.id == productId) {
+                qty = item.qty;
+                price = products.filter(item => item.id == productId)[0].price;
+                break;
+            }
+        }
         let items = cart.items.filter((i) => {
             if (i.id !== productId){
-                qty = i.qty;
-                subtotal = i.qty * products.filter(item => item.id == productId)[0].price;
                 return i;
             }
         });
 
-        setCart({ ...cart, items: items, quantity: cart.quantity - qty, subtotal: cart.subtotal - subtotal });
+        setCart({ ...cart, items: items, quantity: cart.quantity - qty, subtotal: (cart.subtotal - (qty*price)) });
+
+        if(items.length === 0)
+            handleEmptyCart();
     }
 
     const handleEmptyCart = async () => {
