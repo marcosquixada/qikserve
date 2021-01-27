@@ -13,26 +13,22 @@
       {
         "id": "Dwt5F7KAhi",
         "name": "Amazing Pizza!",
-        "price": 1099,
-		"image": "https://unsplash.com/photos/TxQSdnp6D_k/download"
+        "price": 1099
       },
       {
         "id": "PWWe3w1SDU",
         "name": "Amazing Burger!",
-        "price": 999,
-		"image": "https://unsplash.com/photos/oblxyw_gT28/download"
+        "price": 999
       },
       {
         "id": "C8GDyLrHJb",
         "name": "Amazing Salad!",
-        "price": 499,
-		"image": "https://unsplash.com/photos/EvoIiaIVRzU/download"
+        "price": 499
       },
       {
         "id": "4MB7UfpTQs",
         "name": "Boring Fries!",
-        "price": 199,
-		"image": "https://unsplash.com/photos/ikDDfUJEstk/download"
+        "price": 199
       }
     ]
   }
