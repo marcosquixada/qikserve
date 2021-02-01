@@ -6,9 +6,13 @@ import { Link, useLocation } from 'react-router-dom';
 import logo from '../../assets/commerce.png';
 import useStyles from './styles';
 
-const Navbar = ({totalItems}) => {
+import { connect, useSelector } from 'react-redux';
+
+const Navbar = ({items, quantity}) => {
     const classes = useStyles();
     const location = useLocation();
+
+    const length = useSelector((state)=>state.cart.quantity);
 
     return (
         <>
@@ -22,7 +26,7 @@ const Navbar = ({totalItems}) => {
                   {location.pathname === '/' && (
                   <div className={classes.button}>
                       <IconButton component={Link} to="/cart" aria-label="Show cart items" color="inherit">
-                          <Badge badgeContent={totalItems} color="secondary">
+                                <Badge badgeContent={length} color="secondary">
                               <ShoppingCart />
                           </Badge>
                       </IconButton>
@@ -33,4 +37,7 @@ const Navbar = ({totalItems}) => {
     )
 }
 
-export default Navbar
+export default connect(state => ({
+    items: state.items,
+    quantity: state.quantity
+}))(Navbar);

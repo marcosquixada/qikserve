@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Paper, Stepper, Step, StepLabel, Typography, CssBaseline } from '@material-ui/core';
 
 import useStyles from './styles';
@@ -7,7 +7,6 @@ import PaymentForm from './PaymentForm';
 const steps = ['Shipping Address', 'Payment details'];
 
 const Checkout = ({cart, products}) => {
-    const [activeStep, setActiveStep] = useState(0);
     const classes = useStyles();
 
     return (
